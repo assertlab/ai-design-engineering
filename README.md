@@ -80,24 +80,24 @@ Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível pa
 
 [Baixar Canvas de Identificação do Domínio](/templates/Domain_Identification_Model_Canvas_Template.md)
 
-[Baixar exemplo de preenchimento do Canvas de Identificação do Domínio](/templates/Domain_Identification_Model_Canvas_Example.md)
+[Baixar exemplo de preenchimento do Canvas de Identificação do Domínio](/examples/Domain_Identification_Model_Canvas_Example.md)
 
 **Persona Model Canvas**: O Persona Canvas é utilizado para identificar e detalhar as personas que se beneficiarão diretamente da solução de IA. Este artefato auxilia na compreensão das necessidades, expectativas, problemas atuais e objetivos das personas, proporcionando uma base sólida para o desenvolvimento de soluções personalizadas e eficazes.
 
 [Baixar Persona Model Canvas](/templates/Persona_Model_Canvas_Template.md)
 
-[Baixar exemplo de preenchimento do Persona Model Canvas](/templates/Persona_Model_Canvas_Example.md)
+[Baixar exemplo de preenchimento do Persona Model Canvas](/examples/Persona_Model_Canvas_Example.md)
 
 **Canvas de Mapeamento de Fontes de Dados**: O Canvas de Mapeamento de Fontes de Dados é um template crucial para identificar e organizar as fontes de dados que alimentarão o modelo de IA. Ele permite documentar informações importantes sobre a origem, tipo, qualidade e métodos de coleta dos dados, garantindo que as fontes de dados sejam relevantes e de alta qualidade.
 
 [Baixar Canvas de Mapeamento de Fontes de Dados](/templates/Data_Source_Mapping_Model_Canvas_Template.md)
 
-[Baixar exemplo de preenchimento do Canvas de Mapeamento de Fontes de Dados](/templates/Data_Source_Mapping_Model_Canvas_Example.md)
+[Baixar exemplo de preenchimento do Canvas de Mapeamento de Fontes de Dados](/examples/Data_Source_Mapping_Model_Canvas_Example.md)
 
 **Canvas de Objetivos de Projeto**: O Canvas de Objetivos de Projeto é utilizado para definir e organizar os objetivos do projeto de IA. Este template ajuda a estabelecer metas claras e mensuráveis, identificar indicadores de sucesso e determinar prazos realistas para o alcance das metas. É uma ferramenta essencial para garantir que o projeto esteja alinhado com os objetivos estratégicos e expectativas dos stakeholders.
 
 [Baixar Canvas de Objetivos de Projeto](/templates/Project_Goals_Model_Canvas_Template.md)
 
-[Baixar exemplo de preenchimento do Canvas de Objetivos de Projeto](/templates/Project_Goals_Model_Canvas_Example.md)
+[Baixar exemplo de preenchimento do Canvas de Objetivos de Projeto](/examples/Project_Goals_Model_Canvas_Example.md)
 
 ([Voltar ao topo](#ai-design-engineering))
