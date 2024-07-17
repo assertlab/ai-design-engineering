@@ -36,6 +36,8 @@ A **AI Design** é uma metodologia para a implementação estratégica de projet
 ### Conclusão
 A metodologia AI Design proporciona um roteiro detalhado para integrar IA generativa de maneira estratégica em ambientes corporativos, maximizando o potencial das equipes e melhorando a eficiência, a experiência e a tomada de decisões.
 
+([Voltar ao topo](#ai-design-engineering))
+
 ## Templates
 
 Aqui vamos listar alguns templates de artefatos para serem utilizados no apoio à execução dos projetos da disciplina.
@@ -70,23 +72,32 @@ Um bom arquivo [README](/templates/README_Template.md) é essencial para qualque
 
 Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível para novos usuários e contribuidores, além de proporcionar uma visão clara de como o projeto funciona e é mantido.
 
+([Voltar ao topo](#ai-design-engineering))
+
 ### Artefatos para a Fase de Imersão
 
 **Canvas de Identificação do Domínio**: O Canvas de Identificação do Domínio é um artefato essencial para a fase de Imersão da metodologia AI Design. Ele ajuda a equipe a selecionar e definir um domínio específico onde a IA generativa pode agregar valor significativo. Com este template, você pode organizar e documentar informações como a justificativa da escolha do domínio, os problemas atuais, as oportunidades de IA e os benefícios esperados.
 
-[Baixar Canvas de Identificação do Domínio](link_do_download)
+[Baixar Canvas de Identificação do Domínio](/templates/Domain_Identification_Model_Canvas_Template.md)
+
+[Baixar exemplo de preenchimento do Canvas de Identificação do Domínio](/templates/Domain_Identification_Model_Canvas_Example.md)
 
 **Persona Model Canvas**: O Persona Canvas é utilizado para identificar e detalhar as personas que se beneficiarão diretamente da solução de IA. Este artefato auxilia na compreensão das necessidades, expectativas, problemas atuais e objetivos das personas, proporcionando uma base sólida para o desenvolvimento de soluções personalizadas e eficazes.
 
-[Baixar Persona Model Canvas](link_do_download)
+[Baixar Persona Model Canvas](/templates/Persona_Model_Canvas_Template.md)
+
+[Baixar exemplo de preenchimento do Persona Model Canvas](/templates/Persona_Model_Canvas_Example.md)
 
 **Canvas de Mapeamento de Fontes de Dados**: O Canvas de Mapeamento de Fontes de Dados é um template crucial para identificar e organizar as fontes de dados que alimentarão o modelo de IA. Ele permite documentar informações importantes sobre a origem, tipo, qualidade e métodos de coleta dos dados, garantindo que as fontes de dados sejam relevantes e de alta qualidade.
 
-[Baixar Canvas de Mapeamento de Fontes de Dados](link_do_download)
+[Baixar Canvas de Mapeamento de Fontes de Dados](/templates/Data_Source_Mapping_Model_Canvas_Template.md)
+
+[Baixar exemplo de preenchimento do Canvas de Mapeamento de Fontes de Dados](/templates/Data_Source_Mapping_Model_Canvas_Example.md)
 
 **Canvas de Objetivos de Projeto**: O Canvas de Objetivos de Projeto é utilizado para definir e organizar os objetivos do projeto de IA. Este template ajuda a estabelecer metas claras e mensuráveis, identificar indicadores de sucesso e determinar prazos realistas para o alcance das metas. É uma ferramenta essencial para garantir que o projeto esteja alinhado com os objetivos estratégicos e expectativas dos stakeholders.
 
-[Baixar Canvas de Objetivos de Projeto](link_do_download)
+[Baixar Canvas de Objetivos de Projeto](/templates/Project_Goals_Model_Canvas_Template.md)
 
+[Baixar exemplo de preenchimento do Canvas de Objetivos de Projeto](/templates/Project_Goals_Model_Canvas_Example.md)
 
 ([Voltar ao topo](#ai-design-engineering))
