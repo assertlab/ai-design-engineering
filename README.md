@@ -1,6 +1,41 @@
 # ai-design-engineering
 Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizando Modelos de Linguagem no Ambiente de Negócios do curso de Sistemas de Informação do CIn @ UFPE
 
+## Metodologia AI Design
+
+**Objetivo:**
+A **AI Design** é uma metodologia para a implementação estratégica de projetos de IA generativa nos negócios. Ela é dividida em quatro fases principais, guiadas por princípios de design, para garantir que os assistentes inteligentes sejam desenvolvidos de forma alinhada com os objetivos de negócios, tecnicamente viáveis, eticamente justificáveis e desejáveis para as pessoas impactadas.
+
+### Fases da Metodologia
+
+1. **Imersão:**
+   - **Identificação do Domínio:** Escolher um domínio específico onde a IA generativa possa agregar valor significativo.
+   - **Seleção de Persona:** Determinar o perfil de usuário que se beneficiará diretamente da solução de IA.
+   - **Mapeamento de Fontes de Dados:** Identificar e garantir a relevância e qualidade das fontes de dados que alimentarão o modelo de IA.
+
+   *Exemplo:* Uma clínica médica identifica a possibilidade de otimizar o sistema de agendamento de consultas e selecionar as pessoas do atendimento como a persona principal.
+
+2. **Ideação:**
+   - **Definição de Objetivos:** Estabelecer metas claras e mensuráveis para o projeto.
+   - **Design de Prompt:** Criar prompts que guiarão as interações do assistente inteligente para satisfazer as necessidades identificadas.
+
+   *Exemplo:* Melhorar a eficiência no agendamento de consultas e esclarecer dúvidas frequentes.
+
+3. **Produção:**
+   - **Definição do Assistente Inteligente:** Projetar um assistente detalhando sua identidade, propósito, perfil comportamental e estilo narrativo.
+   - **Teste e Expansão de Usuários:** Iniciar testes com um grupo pequeno de usuários e fazer ajustes com base no feedback antes de expandir.
+
+   *Exemplo:* "Dr. Help" é projetado com uma identidade amigável e um perfil comportamental empático, testado inicialmente com um grupo reduzido de atendentes.
+
+4. **Validação:**
+   - **Implementação e Monitoramento:** Desenvolver um plano detalhado para a implantação e monitoramento do assistente em produção.
+   - **Escala e Diversificação:** Após o sucesso inicial, expandir a solução para outros casos de uso ou domínios.
+
+   *Exemplo:* "Dr. Help" é implementado em escala e monitorado continuamente, com planos para expandir seu uso para apoiar médicos durante consultas.
+
+### Conclusão
+A metodologia AI Design proporciona um roteiro detalhado para integrar IA generativa de maneira estratégica em ambientes corporativos, maximizando o potencial das equipes e melhorando a eficiência, a experiência e a tomada de decisões.
+
 ## Templates
 
 Aqui vamos listar alguns templates de artefatos para serem utilizados no apoio à execução dos projetos da disciplina.
@@ -34,5 +69,24 @@ Um bom arquivo [README](/templates/README_Template.md) é essencial para qualque
 12. **Estado do Projeto**: Se o projeto estiver em uma fase inicial, em desenvolvimento ativo, ou se for um projeto maduro, informe isso aos usuários. Isso pode definir expectativas quanto à estabilidade e completude do projeto.
 
 Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível para novos usuários e contribuidores, além de proporcionar uma visão clara de como o projeto funciona e é mantido.
+
+### Artefatos para a Fase de Imersão
+
+**Canvas de Identificação do Domínio**: O Canvas de Identificação do Domínio é um artefato essencial para a fase de Imersão da metodologia AI Design. Ele ajuda a equipe a selecionar e definir um domínio específico onde a IA generativa pode agregar valor significativo. Com este template, você pode organizar e documentar informações como a justificativa da escolha do domínio, os problemas atuais, as oportunidades de IA e os benefícios esperados.
+
+[Baixar Canvas de Identificação do Domínio](link_do_download)
+
+**Persona Model Canvas**: O Persona Canvas é utilizado para identificar e detalhar as personas que se beneficiarão diretamente da solução de IA. Este artefato auxilia na compreensão das necessidades, expectativas, problemas atuais e objetivos das personas, proporcionando uma base sólida para o desenvolvimento de soluções personalizadas e eficazes.
+
+[Baixar Persona Model Canvas](link_do_download)
+
+**Canvas de Mapeamento de Fontes de Dados**: O Canvas de Mapeamento de Fontes de Dados é um template crucial para identificar e organizar as fontes de dados que alimentarão o modelo de IA. Ele permite documentar informações importantes sobre a origem, tipo, qualidade e métodos de coleta dos dados, garantindo que as fontes de dados sejam relevantes e de alta qualidade.
+
+[Baixar Canvas de Mapeamento de Fontes de Dados](link_do_download)
+
+**Canvas de Objetivos de Projeto**: O Canvas de Objetivos de Projeto é utilizado para definir e organizar os objetivos do projeto de IA. Este template ajuda a estabelecer metas claras e mensuráveis, identificar indicadores de sucesso e determinar prazos realistas para o alcance das metas. É uma ferramenta essencial para garantir que o projeto esteja alinhado com os objetivos estratégicos e expectativas dos stakeholders.
+
+[Baixar Canvas de Objetivos de Projeto](link_do_download)
+
 
 ([Voltar ao topo](#ai-design-engineering))
