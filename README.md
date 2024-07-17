@@ -1,6 +1,15 @@
 # AI Design Engineering
 Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizando Modelos de Linguagem no Ambiente de Negócios do curso de Sistemas de Informação do CIn @ UFPE
 
+**Índice**
+
+1. [Metodologia AI Design](#metodologia-ai-design)
+   - [Fases da Metodologia](#fases-da-metodologia)
+2. [Templates](#templates)
+   - [README do repositório do projeto](#readme-do-reposit%C3%B3rio-do-projeto)
+   - [Artefatos para a Fase de Imersão](#artefatos-para-a-fase-de-imers%C3%A3o)
+    
+
 ## Metodologia AI Design
 
 **Objetivo:**
