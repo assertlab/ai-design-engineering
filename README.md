@@ -8,8 +8,7 @@ Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizan
 2. [Templates](#templates)
    - [README do repositório do projeto](#readme-do-reposit%C3%B3rio-do-projeto)
    - [Artefatos para a Fase de Imersão](#artefatos-para-a-fase-de-imers%C3%A3o)
-   - [Artefatos para a Fase de Ideação](#artefatos-para-a-fase-de-idea%C3%A3o)
-    
+   - [Artefatos para a Fase de Ideação](#artefatos-para-a-fase-de-idea%C3%A7%C3%A3o)
 
 ## Metodologia AI Design
 
