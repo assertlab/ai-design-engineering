@@ -110,3 +110,27 @@ Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível pa
 [Baixar exemplo de preenchimento do Canvas de Objetivos de Projeto](/examples/Project_Goals_Model_Canvas_Example.md)
 
 ([Voltar ao topo](#ai-design-engineering))
+
+### Artefatos para a Fase de Ideação
+
+**Canvas de Definição de Objetivos**: O Canvas de Definição de Objetivos é um artefato essencial para a fase de Ideação da metodologia AI Design. Ele ajuda a equipe a refinar e detalhar os objetivos específicos do projeto de IA, garantindo que as metas sejam claras, mensuráveis e alinhadas com os indicadores de sucesso. Use este template para organizar e documentar os objetivos gerais, específicos, indicadores de sucesso, metas quantitativas e a priorização de objetivos.
+
+[Baixar Canvas de Definição de Objetivos](link_do_download)
+
+
+**Canvas de Design de Prompts**: O Canvas de Design de Prompts é utilizado para criar e detalhar os prompts que guiarão as interações com o assistente inteligente. Este artefato auxilia na definição do prompt inicial, respostas esperadas, ações esperadas e na coleta de feedback para ajustes. Utilize este template para garantir que as interações sejam eficazes e melhorem a experiência do usuário.
+
+[Baixar Canvas de Design de Prompts](link_do_download)
+
+
+
+**Canvas de Ideação de Soluções**: O Canvas de Ideação de Soluções é fundamental para gerar ideias de soluções inovadoras que utilizem IA generativa para resolver os problemas identificados e atingir os objetivos definidos. Este template ajuda a equipe a organizar e documentar problemas a serem resolvidos, ideias de solução, benefícios esperados, viabilidade técnica e priorização de soluções.
+
+[Baixar Canvas de Ideação de Soluções](link_do_download)
+
+
+
+**Canvas de Prototipagem Rápida**: O Canvas de Prototipagem Rápida é utilizado para planejar e documentar a criação de protótipos rápidos para testar as ideias de soluções de IA generativa. Este artefato auxilia na definição da ideia de solução, objetivo do protótipo, recursos necessários, cronograma de desenvolvimento e métricas de sucesso. Utilize este template para sistematizar a fase de Prototipagem e validar suas soluções de forma eficiente.
+
+[Baixar Canvas de Prototipagem Rápida](link_do_download)
+
