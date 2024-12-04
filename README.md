@@ -103,7 +103,7 @@ Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível pa
 
 [Baixar exemplo de preenchimento do Canvas de Mapeamento de Fontes de Dados](/examples/imersao/Data_Source_Mapping_Model_Canvas_Example.md)
 
-**Canvas de Objetivos de Projeto**: O Canvas de Objetivos de Projeto é utilizado para definir e organizar os objetivos do projeto de IA. Este template ajuda a estabelecer metas claras e mensuráveis, identificar indicadores de sucesso e determinar prazos realistas para o alcance das metas. É uma ferramenta essencial para garantir que o projeto esteja alinhado com os objetivos estratégicos e expectativas dos stakeholders.
+**Canvas de Objetivos de Projeto**: O Canvas de Objetivos de Projeto é um artefato estratégico utilizado na fase de Imersão da metodologia AIdesign. Ele ajuda a identificar e alinhar os objetivos gerais e específicos do projeto de IA com os objetivos organizacionais e expectativas dos stakeholders. Este canvas serve como um ponto de partida para a definição inicial de metas amplas e indicadores de sucesso, que serão refinados posteriormente na fase de Ideação com o Canvas de Definição de Objetivos. A abordagem centrada na estratégia permite priorizar as necessidades do negócio e garantir que o projeto de IA esteja alinhado com os valores e resultados esperados pela organização.
 
 [Baixar Canvas de Objetivos de Projeto](/templates/imersao/Project_Goals_Model_Canvas_Template.md)
 
