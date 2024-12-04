@@ -113,7 +113,7 @@ Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível pa
 
 ### Artefatos para a Fase de Ideação
 
-**Canvas de Definição de Objetivos**: O Canvas de Definição de Objetivos é um artefato essencial para a fase de Ideação da metodologia AI Design. Ele ajuda a equipe a refinar e detalhar os objetivos específicos do projeto de IA, garantindo que as metas sejam claras, mensuráveis e alinhadas com os indicadores de sucesso. Use este template para organizar e documentar os objetivos gerais, específicos, indicadores de sucesso, metas quantitativas e a priorização de objetivos.
+**Canvas de Definição de Objetivos**: O Canvas de Definição de Objetivos é um artefato operacional utilizado na fase de Ideação da metodologia AIdesign. Ele se baseia no trabalho estratégico realizado na fase de Imersão com o Canvas de Objetivos de Projeto, detalhando e refinando metas gerais e específicas, bem como seus indicadores de sucesso. Além disso, este canvas introduz elementos como priorização detalhada e identificação de ações práticas para atingir cada objetivo. Este refinamento transforma metas estratégicas em objetivos claros e acionáveis, prontos para orientar o desenvolvimento técnico e a implementação da solução de IA.
 
 [Baixar Canvas de Definição de Objetivos](/templates/ideacao/Goals_Definition_Model_Canvas_Template.md)
 
