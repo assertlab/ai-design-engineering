@@ -1,4 +1,4 @@
-# **Template para o Nível de Contexto**
+# Template para o Nível de Contexto
 **Descrição**: Mostra os atores externos (usuários, sistemas, dispositivos) e sua interação com o sistema de IA. Ideal para comunicar o propósito geral e o papel do assistente.
 
 ## Estrutura do Template:
