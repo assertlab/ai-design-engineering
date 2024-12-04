@@ -1,4 +1,4 @@
-# **Template para o Nível de Contêiner**
+# Template para o Nível de Contêiner
 **Descrição**: Detalha os componentes principais do sistema, como serviços de backend, bancos de dados, interfaces de usuário e APIs.
 
 ## Estrutura do Template:
