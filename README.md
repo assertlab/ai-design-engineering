@@ -1,5 +1,5 @@
 # AI Design Engineering
-Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizando Modelos de Linguagem no Ambiente de Negócios do curso de Sistemas de Informação do CIn @ UFPE
+Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizando Modelos de Linguagem no Ambiente de Negócios do curso de Sistemas de Informação do **[CIn @ UFPE](https://portal.cin.ufpe.br/)**. Nosso foco é explorar diferentes formas de aplicar técnicas, ferramentas e serviços de Inteligência artificial aliadas a práticas, metodologias e ferramentas da Engenharia de Software ne construção de produtos digitais.
 
 **Índice**
 
@@ -15,7 +15,7 @@ Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizan
 ## Metodologia AI Design
 
 **Objetivo:**
-A **AI Design** é uma metodologia para a implementação estratégica de projetos de IA generativa nos negócios. Ela é dividida em quatro fases principais, guiadas por princípios de design, para garantir que os assistentes inteligentes sejam desenvolvidos de forma alinhada com os objetivos de negócios, tecnicamente viáveis, eticamente justificáveis e desejáveis para as pessoas impactadas.
+A **[AI Design](https://biblioteca.tds.company/tds-books-aidesign)** é uma metodologia para a implementação estratégica de projetos de IA generativa nos negócios. Ela é dividida em quatro fases principais, guiadas por princípios de design, para garantir que os assistentes inteligentes sejam desenvolvidos de forma alinhada com os objetivos de negócios, tecnicamente viáveis, eticamente justificáveis e desejáveis para as pessoas impactadas.
 
 ### Fases da Metodologia
 
