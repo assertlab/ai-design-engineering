@@ -9,6 +9,8 @@ Repositório da Disciplina **[IF1006] Transformação Digital com IA**: Utilizan
    - [README do repositório do projeto](#readme-do-reposit%C3%B3rio-do-projeto)
    - [Artefatos para a Fase de Imersão](#artefatos-para-a-fase-de-imers%C3%A3o)
    - [Artefatos para a Fase de Ideação](#artefatos-para-a-fase-de-idea%C3%A7%C3%A3o)
+   - [Artefatos para a Fase de Produção](#artefatos-para-a-fase-de-produ%C3%A7%C3%A3o)
+   - [Artefatos para a Fase de Validação](#artefatos-para-a-fase-de-valida%C3%A7%C3%A3o)
 
 ## Metodologia AI Design
 
@@ -136,5 +138,53 @@ Essas práticas ajudam a garantir que seu projeto seja acolhedor e acessível pa
 [Baixar Canvas de Prototipagem Rápida](/templates/ideacao/Rapid_Prototyping_Model_Canvas_Template.md)
 
 [Baixar exemplo de preenchimento do Canvas de Prototipagem Rápida](/examples/ideacao/Rapid_Prototyping_Model_Canvas_Example.md)
+
+([Voltar ao topo](#ai-design-engineering))
+
+### Artefatos para a Fase de Produção
+
+**C4 Model (Contexto, Contêiner e Componente):** O C4 Model é uma ferramenta essencial para a fase de Produção da metodologia AIdesign, fornecendo uma abordagem visual e hierárquica para documentar a arquitetura do assistente inteligente. Dividido em três níveis – Contexto, Contêiner e Componente – o modelo descreve desde as interações externas até os detalhes técnicos internos, promovendo clareza e alinhamento entre equipes técnicas e de negócios. Este modelo facilita a comunicação, assegura a escalabilidade e serve como referência para a implementação e manutenção do sistema. Mais informações sobre como usar o C4 Model na Produção [podem ser encontradas aqui](/templates/producao/How_to_use_C4_Model_in_Production_Fase.md).
+
+[Baixar Canvas do C4 Model - Contexto](/templates/producao/Context_Level_Model_Canvas_Template.md)
+
+[Baixar Canvas do C4 Model - Contêiner](/templates/producao/Container_Level_Model_Canvas_Template.md)
+
+[Baixar Canvas do C4 Model - Componente](/templates/producao/Component_Level_Model_Canvas_Template.md)
+
+**Canvas de Treinamento e Ajuste do Modelo:** O Canvas de Treinamento e Ajuste do Modelo é um artefato operacional da fase de Produção que organiza e detalha o processo de preparação do modelo de IA. Ele abrange etapas como a seleção e o processamento de dados, o ajuste de hiperparâmetros e a definição de métricas de desempenho. Este artefato garante que o treinamento do modelo seja conduzido de forma eficiente e alinhada aos objetivos do projeto, proporcionando resultados consistentes e de alta qualidade.
+
+[Baixar Canvas de Treinamento e Ajuste do Modelo](/templates/producao/Model_Training_and_Tuning_Model_Canvas_Template.md)
+
+**Canvas de Testes e Validação:** O Canvas de Testes e Validação é um artefato crítico da fase de Produção, voltado para assegurar a robustez e a confiabilidade do assistente inteligente. Ele estrutura os testes funcionais, de desempenho e de segurança, definindo critérios claros para avaliar a qualidade da solução. Além disso, este canvas permite documentar os resultados e identificar áreas de melhoria antes da implementação em ambiente de produção.
+
+[Baixar Canvas de Testes e Validação](/templates/producao/Testing_and_Validation_Model_Canvas_Template.md)
+
+**Canvas de Entrega e Lançamento:** O Canvas de Entrega e Lançamento é um artefato estratégico da fase de Produção, projetado para planejar a introdução do assistente inteligente no ambiente de produção. Ele organiza cronogramas, estratégias de comunicação e planos de contingência, assegurando uma transição suave e eficaz. Este artefato também considera ações pós-lançamento, como monitoramento inicial e suporte aos usuários, para maximizar o impacto e o sucesso da solução.
+
+[Baixar Canvas de Entrega e Lançamento](/templates/producao/Delivery_and_Launch_Model_Canvas_Template.md)
+
+([Voltar ao topo](#ai-design-engineering))
+
+### Artefatos para a Fase de Validação
+
+**Canvas de Planejamento de Escalabilidade:** O Canvas de Planejamento de Escalabilidade é um artefato essencial da fase de Validação na metodologia AIdesign. Ele organiza as estratégias para adaptar a infraestrutura e os recursos do assistente inteligente a um aumento de usuários ou interações. Com este artefato, equipes podem identificar os requisitos técnicos, avaliar os custos associados e definir mecanismos como balanceamento de carga e escalabilidade elástica, garantindo que o sistema funcione de forma eficiente em diferentes escalas.
+
+[Baixar Canvas de Planejamento de Escalabilidade](/templates/validacao/Scalability_Planning_Model_Canvas_Template.md)
+
+**Canvas de Planejamento de Diversificação:** O Canvas de Planejamento de Diversificação é utilizado na fase de Validação para orientar a expansão funcional do assistente inteligente. Ele detalha as novas capacidades a serem adicionadas, considerando seu impacto, viabilidade técnica e alinhamento com as necessidades dos usuários. Este artefato ajuda a priorizar funcionalidades que aumentem o valor do sistema, promovendo inovações que atendam a demandas emergentes de forma estruturada.
+
+[Baixar Canvas de Planejamento de Diversificação](/templates/validacao/Diversification_Planning_Model_Canvas_Template.md)
+
+**Canvas de Feedback e Iteração:** O Canvas de Feedback e Iteração é um artefato operacional da fase de Validação que organiza o processo de coleta, análise e implementação de feedback dos usuários. Ele permite categorizar os retornos recebidos, identificar áreas de melhoria e planejar ajustes no assistente inteligente. Este artefato é fundamental para promover um ciclo contínuo de evolução e refinamento, alinhando o sistema às expectativas dos usuários e às metas organizacionais.
+
+[Baixar Canvas de Feedback e Iteração](/templates/validacao/Feedback_and_Iteration_Model_Canvas_Template.md)
+
+**Canvas de Métricas de Escala e Impacto:** O Canvas de Métricas de Escala e Impacto é uma ferramenta estratégica para monitorar o desempenho do assistente em escala e avaliar seu impacto organizacional. Este artefato auxilia na definição e no acompanhamento de indicadores-chave, como adoção de usuários, satisfação e eficiência operacional. Ele fornece insights valiosos para ajustar o sistema e sustentar seu crescimento de forma consistente e orientada por dados.
+
+[Baixar Canvas de Métricas de Escala e Impacto](/templates/validacao/Scale_and_Impact_Metrics_Model_Canvas_Template.md)
+
+**Canvas de Planejamento de Expansão Geográfica ou de Domínio:** O Canvas de Planejamento de Expansão Geográfica ou de Domínio é utilizado na fase de Validação para estruturar a entrada do assistente em novos mercados ou áreas de aplicação. Ele considera aspectos culturais, técnicos e regulatórios, organizando etapas como tradução, adaptação de fluxos de interação e conformidade com legislações locais. Este artefato assegura que a expansão seja planejada e executada de forma eficiente, minimizando riscos e maximizando oportunidades.
+
+[Baixar Canvas de Planejamento de Expansão Geográfica ou de Domínio](/templates/validacao/Geographic_or_Domain_Expansion_Planning_Model_Canvas_Template.md)
 
 ([Voltar ao topo](#ai-design-engineering))
