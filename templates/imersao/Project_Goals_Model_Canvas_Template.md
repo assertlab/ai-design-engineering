@@ -2,41 +2,49 @@
 
 ## Instruções de Preenchimento
 
-Preencha cada seção deste canvas com informações detalhadas sobre os objetivos do projeto de IA. Este documento ajudará a orientar e sistematizar a definição de metas e indicadores de sucesso na fase de Imersão da metodologia AI Design.
+Preencha cada seção deste canvas com informações estratégicas sobre os objetivos do projeto de IA, mantendo um nível de detalhe apropriado para orientar as próximas fases do projeto. Este documento fornece uma base para a criação de metas operacionais na fase de Ideação da metodologia AI Design.
 
-### 1. Objetivo Geral
+### 1. Objetivo Estratégico Geral
 
-- **Instruções:** Descreva o objetivo principal do projeto. Este objetivo deve ser amplo e refletir a visão geral do que se espera alcançar com a implementação da solução de IA.
-- **Exemplo:** Melhorar a eficiência no agendamento de consultas e aumentar a satisfação dos pacientes na clínica.
+- **Instruções:** Descreva o objetivo principal do projeto de IA, conectando-o aos objetivos organizacionais mais amplos. Este objetivo deve ser aspiracional e refletir a visão geral do que o projeto busca alcançar em termos estratégicos.
+- **Exemplo:** Melhorar a eficiência operacional e a experiência do cliente no sistema de agendamento de consultas da clínica.
 
-### 2. Objetivos Específicos
+### 2. Objetivos Estratégicos Secundários
 
-- **Instruções:** Liste os objetivos específicos que apoiarão a realização do objetivo geral. Estes devem ser mais detalhados e mensuráveis.
+- **Instruções:** Liste os objetivos secundários que suportam o objetivo geral. Estes devem descrever como o projeto contribuirá para áreas específicas da organização.
 - **Exemplo:**
-  - Reduzir o tempo médio de espera para marcação de consultas em 50%.
-  - Diminuir a taxa de cancelamentos e faltas em 30%.
-  - Aumentar a precisão na alocação de horários para consultas.
+  - Otimizar o uso de recursos humanos no setor de agendamento.
+  - Melhorar a qualidade dos dados usados para tomada de decisão.
+  - Reduzir custos associados a cancelamentos e erros administrativos.
 
-### 3. Indicadores de Sucesso
+### 3. Benefícios Esperados
 
-- **Instruções:** Defina os indicadores que serão utilizados para medir o sucesso do projeto. Estes devem ser específicos, mensuráveis, alcançáveis, relevantes e com prazo definido (SMART).
+- **Instruções:** Descreva os principais benefícios que a solução de IA deve trazer para o negócio. Foque nos impactos positivos esperados em termos de eficiência, custo-benefício e experiência do cliente.
 - **Exemplo:**
-  - Tempo médio de espera para marcação de consultas.
-  - Taxa de cancelamentos e faltas.
-  - Número de erros na alocação de horários.
+  - Redução de custos operacionais em 20% nos próximos 12 meses.
+  - Aumento da satisfação do cliente em 25%, medido por NPS.
+  - Melhor aproveitamento das agendas médicas em 30%.
 
-### 4. Metas Quantitativas
+### 4. Indicadores-Chave de Sucesso (KPIs)
 
-- **Instruções:** Estabeleça metas quantitativas para cada um dos indicadores de sucesso definidos. Estas metas devem ser claras e desafiadoras, mas alcançáveis.
+- **Instruções:** Defina os KPIs estratégicos que serão usados para medir o impacto e o sucesso do projeto de IA. Estes devem ser específicos e mensuráveis.
 - **Exemplo:**
-  - Reduzir o tempo médio de espera para marcação de consultas de 30 minutos para 15 minutos em 6 meses.
-  - Diminuir a taxa de cancelamentos de 20% para 10% em 6 meses.
-  - Reduzir os erros na alocação de horários em 80% dentro de 3 meses.
+  - Índice de cancelamentos (redução de 20% para 10%).
+  - Tempo médio de atendimento reduzido em 30%.
+  - Taxa de utilização das agendas médicas aumentada para 90%.
 
-### 5. Prazo para Alcance
+### 5. Requisitos Estratégicos e Restrições
 
-- **Instruções:** Determine o prazo para alcançar cada uma das metas definidas. Este prazo deve ser realista e levar em consideração os recursos disponíveis e a complexidade do projeto.
+- **Instruções:** Identifique os requisitos estratégicos e as principais restrições que podem influenciar o alcance dos objetivos. Considere fatores como orçamento, regulamentações, e recursos disponíveis.
 - **Exemplo:**
-  - 6 meses para reduzir o tempo médio de espera.
-  - 6 meses para diminuir a taxa de cancelamentos.
-  - 3 meses para reduzir os erros na alocação de horários.
+  - Respeitar as regulamentações de proteção de dados (LGPD).
+  - Orçamento limitado para implementação inicial.
+  - Necessidade de integração com sistemas legados.
+
+### 6. Priorização Inicial de Objetivos
+
+- **Instruções**: Identifique quais objetivos têm maior relevância estratégica e devem receber foco imediato. Baseie a priorização em impacto organizacional, viabilidade técnica e alinhamento com a visão do projeto.
+- **Exemplo**:
+  - Alta prioridade: Redução do índice de cancelamentos.
+  - Média prioridade: Melhoria na eficiência operacional.
+  - Baixa prioridade: Aumento na precisão da análise de dados em curto prazo.
