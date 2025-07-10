@@ -58,10 +58,10 @@ Evitar a repetição desnecessária de código para garantir melhor manutenção
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Identifique padrões de código duplicados no projeto. Procure por funções, componentes ou blocos de código que
-aparecem em vários lugares com pouca ou nenhuma alteração. Sugira refatorações para criar componentes reutilizáveis,
-hooks personalizados ou funções utilitárias que possam substituir essa duplicação, seguindo o princípio DRY (Don't
-Repeat Yourself).
+Identifique padrões de código duplicados no projeto. Procure por funções, componentes ou blocos
+de código que aparecem em vários lugares com pouca ou nenhuma alteração. Sugira refatorações para
+criar componentes reutilizáveis, hooks personalizados ou funções utilitárias que possam substituir
+essa duplicação, seguindo o princípio DRY (Don't Repeat Yourself).
 ```
 
 ### 2\. Eliminar Código Não Utilizado (Dead Code)
@@ -86,7 +86,11 @@ Remover código morto — ou seja, qualquer trecho que não é utilizado durante
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Analise o projeto e identifique: 1) Componentes que foram criados mas nunca importados ou renderizados, 2) Funções declaradas que nunca são chamadas, 3) Importações que não são utilizadas, 4) Variáveis de estado (useState) que nunca mudam ou nunca são lidas, 5) Código comentado sem explicação clara de por que foi mantido. Sugira a remoção desses elementos para melhorar a manutenibilidade e performance do código.
+Analise o projeto e identifique: 1) Componentes que foram criados mas nunca importados ou
+renderizados, 2) Funções declaradas que nunca são chamadas, 3) Importações que não são utilizadas,
+4) Variáveis de estado (useState) que nunca mudam ou nunca são lidas, 5) Código comentado sem
+explicação clara de por que foi mantido. Sugira a remoção desses elementos para melhorar a
+manutenibilidade e performance do código.
 ```
 
 ### 3\. Uso Consistente de TypeScript
@@ -112,7 +116,11 @@ Aproveitar todo o poder do TypeScript para detectar erros em tempo de desenvolvi
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Examine o uso de tipos no projeto. Identifique: 1) Uso excessivo do tipo 'any' que deve ser substituído por tipos específicos, 2) Props de componentes que não têm interfaces ou tipos definidos, 3) Inconsistências no uso de 'interface' vs 'type', 4) Tipos que poderiam ser mais específicos ou restritivos. Sugira melhorias para aproveitar melhor o sistema de tipos do TypeScript e aumentar a segurança do código.
+Examine o uso de tipos no projeto. Identifique: 1) Uso excessivo do tipo 'any' que deve ser
+substituído por tipos específicos, 2) Props de componentes que não têm interfaces ou tipos
+definidos, 3) Inconsistências no uso de 'interface' vs 'type', 4) Tipos que poderiam ser mais
+específicos ou restritivos. Sugira melhorias para aproveitar melhor o sistema de tipos do
+TypeScript e aumentar a segurança do código.
 ```
 
 ### 4\. Componentes Bem Estruturados
@@ -139,7 +147,11 @@ Garantir que os componentes React sejam coesos, com responsabilidade única e le
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Identifique componentes React que violam o princípio de responsabilidade única ou são excessivamente grandes. Procure por: 1) Componentes com mais de 250 linhas de código, 2) Componentes que fazem muitas coisas diferentes, 3) JSX complexo ou profundamente aninhado. Sugira como estes componentes podem ser divididos em componentes menores, mais focados e reutilizáveis, explicando os benefícios para manutenção e legibilidade.
+Identifique componentes React que violam o princípio de responsabilidade única ou são
+excessivamente grandes. Procure por: 1) Componentes com mais de 250 linhas de código, 2)
+Componentes que fazem muitas coisas diferentes, 3) JSX complexo ou profundamente aninhado.
+Sugira como estes componentes podem ser divididos em componentes menores, mais focados e
+reutilizáveis, explicando os benefícios para manutenção e legibilidade.
 ```
 
 ### 5\. Gerenciamento de Estado Eficiente
@@ -171,7 +183,10 @@ Analise o gerenciamento de estado na aplicação. Identifique: 1) Casos de
 "prop drilling" excessivo (passar props através de muitos componentes),
 2) Estado que deveria estar em um nível superior da árvore de
 componentes, 3) Estado duplicado em vários componentes, 4) Uso inadequado
-de Context API para dados que não precisam ser globais. Sugira a estratégia mais simples que resolva o problema, explicando por que `useState` local, elevação de estado (`lifting state up`), `useContext` ou uma biblioteca externa como Zustand/Redux seria a melhor escolha em cada caso.
+de Context API para dados que não precisam ser globais. Sugira a estratégia mais simples
+ que resolva o problema, explicando por que `useState` local, elevação de estado
+(`lifting state up`), `useContext` ou uma biblioteca externa como Zustand/Redux seria a melhor
+escolha em cada caso.
 ```
 
 ### 6\. Uso Adequado de Hooks React
@@ -270,7 +285,9 @@ API sem blocos try/catch ou tratamento de erros, 2) Operações assíncronas
 que podem falhar silenciosamente, 3) Falta de feedback ao usuário quando
 erros ocorrem, 4) Erros que são registrados no console mas não tratados
 adequadamente. Sugira implementações de boundary errors de React e
-estratégias para melhorar a experiência do usuário durante falhas. Além disso, identifique locais onde a ausência de um estado de carregamento (`loading`) degrada a experiência do usuário durante operações assíncronas.
+estratégias para melhorar a experiência do usuário durante falhas. Além disso,
+identifique locais onde a ausência de um estado de carregamento (`loading`) degrada
+a experiência do usuário durante operações assíncronas.
 ```
 
 ### 9\. Desempenho e Otimizações
@@ -403,7 +420,12 @@ Assegurar que as funcionalidades da aplicação sejam verificadas por meio de te
 Analise a cobertura e qualidade dos testes no projeto. Identifique: 1)
 Componentes críticos sem testes, 2) Testes que apenas verificam
 renderização sem testar comportamento, 3) Uso inadequado de mocks, 4)
-Testes frágeis que quebram facilmente. 5) Avalie se os testes existentes são robustos ou se estão muito acoplados à implementação interna dos componentes, sugerindo formas de testar o comportamento observável pelo usuário. Sugira melhorias na estratégia de testes incluindo testes unitários, de integração e end-to-end onde apropriado, priorize o que deve ser testado primeiro e como escrever testes mais robustos e significativos.
+Testes frágeis que quebram facilmente. 5) Avalie se os testes existentes são robustos
+ou se estão muito acoplados à implementação interna dos componentes, sugerindo formas
+de testar o comportamento observável pelo usuário. Sugira melhorias na estratégia de
+testes incluindo testes unitários, de integração e end-to-end onde apropriado,
+priorize o que deve ser testado primeiro e como escrever testes mais robustos e
+significativos.
 ```
 
 ## 🔒 Segurança para Aplicações
@@ -432,7 +454,11 @@ Garantir que informações sensíveis — como chaves de API, tokens de autentic
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Verifique se o arquivo .gitignore existe e se contém entradas para arquivos de configuração como .env ou arquivos que possam conter credenciais. Também procure por chaves de API, senhas ou tokens diretamente escritos no código fonte. Confirme que o projeto usa variáveis de ambiente para dados sensíveis ao invés de valores codificados diretamente.
+Verifique se o arquivo .gitignore existe e se contém entradas para arquivos de
+configuração como .env ou arquivos que possam conter credenciais. Também procure
+por chaves de API, senhas ou tokens diretamente escritos no código fonte. Confirme
+que o projeto usa variáveis de ambiente para dados sensíveis ao invés de valores
+codificados diretamente.
 ```
 
 ### 14\. Garantir que o código não está expondo APIs importantes no frontend
@@ -458,7 +484,11 @@ Proteger as APIs da aplicação garantindo que endpoints críticos e chaves de a
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Analise o código frontend (JavaScript/TypeScript) e procure por endpoints de API expostos diretamente no código cliente. Verifique se as chaves de API ou tokens de autenticação estão sendo usados no código frontend ou se todas as chamadas sensíveis são feitas através de um backend seguro. Identifique qualquer chamada de API que expõe endpoints internos ou chaves diretamente no navegador.
+Analise o código frontend (JavaScript/TypeScript) e procure por endpoints de API
+expostos diretamente no código cliente. Verifique se as chaves de API ou tokens de
+autenticação estão sendo usados no código frontend ou se todas as chamadas sensíveis
+são feitas através de um backend seguro. Identifique qualquer chamada de API que
+expõe endpoints internos ou chaves diretamente no navegador.
 ```
 
 ### 15\. Confirmar validação de entrada de dados
@@ -486,7 +516,13 @@ Assegurar que toda entrada de dados proveniente do usuário seja validada corret
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Examine todas as funções e rotas que aceitam entrada do usuário. Verifique se existem validações adequadas (tipo, formato, tamanho) antes do processamento dos dados. Identifique pontos onde falta validação ou onde entradas maliciosas poderiam causar comportamentos inesperados. Destaque quais validações são essenciais para a segurança e devem obrigatoriamente existir no backend, mesmo que já existam no frontend para melhorar a experiência do usuário. Sugira implementaÇões de validação robusta para cada campo de entrada.
+Examine todas as funções e rotas que aceitam entrada do usuário. Verifique se
+existem validações adequadas (tipo, formato, tamanho) antes do processamento dos
+dados. Identifique pontos onde falta validação ou onde entradas maliciosas poderiam
+causar comportamentos inesperados. Destaque quais validações são essenciais para a
+segurança e devem obrigatoriamente existir no backend, mesmo que já existam no
+frontend para melhorar a experiência do usuário. Sugira implementaÇões de validação
+robusta para cada campo de entrada.
 ```
 
 ### 16\. Validar autenticação e autorização de usuários
@@ -514,7 +550,11 @@ Garantir que apenas usuários autenticados possam acessar recursos protegidos, e
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Analise o sistema de autenticação e autorização do projeto. Verifique se rotas sensíveis exigem autenticação e se há verificações para garantir que usuários só possam acessar recursos permitidos para seu nível de acesso. Identifique endpoints que possam estar desprotegidos ou onde faltam verificações de permissão. Sugira melhorias para implementar o princípio de menor privilégio.
+Analise o sistema de autenticação e autorização do projeto. Verifique se rotas
+sensíveis exigem autenticação e se há verificações para garantir que usuários só
+possam acessar recursos permitidos para seu nível de acesso. Identifique endpoints
+que possam estar desprotegidos ou onde faltam verificações de permissão. Sugira
+melhorias para implementar o princípio de menor privilégio.
 ```
 
 ### 17\. Verificar se há proteção contra ataques comuns
@@ -545,7 +585,8 @@ Prevenir vulnerabilidades clássicas de segurança como injeção de SQL, XSS (C
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Examine o código e as configurações da aplicação para identificar vulnerabilidades comuns:
+Examine o código e as configurações da aplicação para identificar
+vulnerabilidades comuns:
 1) Verifique uso de ORM ou queries parametrizadas contra injeção SQL
 2) Avalie sanitização de dados contra XSS
 3) Confirme presença de tokens CSRF para formulários e endpoints sensíveis
@@ -580,9 +621,12 @@ Proteger os dados dos usuários durante a comunicação com o servidor, impedind
 
 ```
 Analise a configuração do servidor e as URLs no código fonte.  
-Verifique se todas as comunicações são forçadas a usar HTTPS com redirecionamentos adequados de HTTP para HTTPS.  
-Identifique recursos (imagens, scripts, APIs) que possam estar sendo carregados via HTTP em páginas HTTPS, causando avisos de conteúdo misto.  
-Confirme se os cabeçalhos de segurança HTTP apropriados estão configurados (HSTS, Content-Security-Policy).
+Verifique se todas as comunicações são forçadas a usar HTTPS com redirecionamentos
+adequados de HTTP para HTTPS.  
+Identifique recursos (imagens, scripts, APIs) que possam estar sendo carregados
+via HTTP em páginas HTTPS, causando avisos de conteúdo misto.  
+Confirme se os cabeçalhos de segurança HTTP apropriados estão configurados (HSTS,
+Content-Security-Policy).
 ```
 
 ## 📊 Monitoramento e Manutenção
@@ -616,7 +660,11 @@ Assegurar que eventos críticos do sistema estejam sendo registrados de forma ad
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Analise o sistema de logging da aplicação. Verifique se eventos críticos como tentativas de login (sucesso/falha), alterações importantes nos dados e erros de sistema são registrados. Certifique-se que informações sensíveis como senhas, tokens e dados pessoais não são gravados nos logs. Sugira melhorias para implementar um sistema de logging abrangente mas seguro.
+Analise o sistema de logging da aplicação. Verifique se eventos críticos como
+tentativas de login (sucesso/falha), alterações importantes nos dados e erros de
+sistema são registrados. Certifique-se que informações sensíveis como senhas,
+tokens e dados pessoais não são gravados nos logs. Sugira melhorias para implementar
+um sistema de logging abrangente mas seguro.
 ```
 
 ### 20\. Controle de Dependências de Terceiros
@@ -649,7 +697,8 @@ Examine o arquivo package.json (ou equivalente) e identifique:
 1) Dependências desatualizadas ou com alertas de segurança
 2) Bibliotecas com poucos mantenedores ou inativas há muito tempo
 3) Código de exemplo ou teste presente na base de produção
-4) Bibliotecas usadas para tarefas simples que poderiam ser resolvidas nativamente
+4) Bibliotecas usadas para tarefas simples que poderiam ser resolvidas
+nativamente
 Sugira atualizações, remoções e substituições adequadas.
 ```
 
@@ -681,9 +730,12 @@ Assegurar que senhas de usuários sejam tratadas com o mais alto nível de segur
 
 ```
 Examine o código relacionado ao gerenciamento de senhas.  
-Verifique se há validações para senhas fortes (comprimento mínimo, caracteres especiais, números).  
-Confirme que as senhas são armazenadas usando algoritmos de hash modernos como bcrypt ou Argon2 e nunca em texto plano.  
-Verifique também a presença de salt único para cada usuário e se existe um mecanismo de redefinição de senha seguro.
+Verifique se há validações para senhas fortes (comprimento mínimo, caracteres
+especiais, números).  
+Confirme que as senhas são armazenadas usando algoritmos de hash modernos como
+bcrypt ou Argon2 e nunca em texto plano.  
+Verifique também a presença de salt único para cada usuário e se existe um
+mecanismo de redefinição de senha seguro.
 ```
 
 ### 22. Preparação para Produção
@@ -716,8 +768,10 @@ Verifique preparação para produção:
 
 1. CONFIGURAÇÕES:
    - Confirme que NODE_ENV está definido como 'production'
-   - Verifique se URLs de API, banco de dados e storage apontam para os ambientes corretos
-   - Identifique flags de debug, logs verbosos ou configurações de desenvolvimento ativas
+   - Verifique se URLs de API, banco de dados e storage apontam para os
+ambientes corretos
+   - Identifique flags de debug, logs verbosos ou configurações de
+desenvolvimento ativas
 
 2. OTIMIZAÇÕES:
    - Confirme que o build está minificado e com code splitting
@@ -759,6 +813,8 @@ Estimular o pensamento crítico na adoção de sugestões geradas por agentes de
 Revise criticamente este trecho sugerido por IA.  
 1) Qual é o propósito da sugestão?  
 2) O código gerado segue o estilo do time e as boas práticas do projeto?  
-3) Há riscos ocultos, como dependências implícitas, comportamentos assíncronos mal definidos ou acoplamento?  
-Sugira modificações para que o código esteja de fato alinhado com os padrões da equipe.
+3) Há riscos ocultos, como dependências implícitas, comportamentos assíncronos
+mal definidos ou acoplamento?  
+Sugira modificações para que o código esteja de fato alinhado com os padrões
+da equipe.
 ```
