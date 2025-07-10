@@ -58,7 +58,10 @@ Evitar a repetição desnecessária de código para garantir melhor manutenção
 **🤖 PROMPT PARA CURSOR / CLAUDE CODE / AI Agent**
 
 ```
-Identifique padrões de código duplicados no projeto. Procure por funções, componentes ou blocos de código que aparecem em vários lugares com pouca ou nenhuma alteração. Sugira refatorações para criar componentes reutilizáveis, hooks personalizados ou funções utilitárias que possam substituir essa duplicação, seguindo o princípio DRY (Don't Repeat Yourself).
+Identifique padrões de código duplicados no projeto. Procure por funções, componentes ou blocos de código que
+aparecem em vários lugares com pouca ou nenhuma alteração. Sugira refatorações para criar componentes reutilizáveis,
+hooks personalizados ou funções utilitárias que possam substituir essa duplicação, seguindo o princípio DRY (Don't
+Repeat Yourself).
 ```
 
 ### 2\. Eliminar Código Não Utilizado (Dead Code)
